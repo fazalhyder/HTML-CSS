@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title> NEW ACCOUNT </title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<h1><i>Customer Details for opening an account in a bank.</i></h1>
+<body bgcolor="metallic">
+    <br>
+    <br>
+    <br>
+    <form action="GET">
+        <div class="names">
+        <label for="FirstName" ><b>First name</b></label>
+        <input type="text" placeholder="Enter Your First Name" name="FirstName" id="FirstName" required>
+        <label for="LastName" ><b>Last name</b></label>
+        <input type="text" placeholder="Enter Your Last Name"name="LastName" id="LastName" required>
+    </div>
+        <br>
+        <div class="contact"> 
+        <label for="Email"><b>Email : </b></label>
+        <input type="text" placeholder="enter your email" name="Email" required>
+        <br>
+        <br>
+        <label for="PhoneNo"><b>phone no :</b></label>
+        <input type="number" placeholder="enter your phone no" name="PhoneNo" required>
+    </div>
+    <br>
+    <br>
+        <br>
+        <div class="sex">
+            <label for="sex">Gender</label>
+            <input type="radio" name="sex" value="male" checked> Male        
+            <input type="radio" name="sex" value="female"> Female
+            <input type="radio" name="sex" value="other">other
+        </div>
+        <br>
+        <br>
+        <div class="address">
+            <label for="praddress">Present Address</label>
+            <input type="text" name="praddress" id="praddress" required>
+            <label for="pmaddress">Permanent address </label>
+            <input type="text" name="pmaddress" id="pmaddress" required>
+        </div>
+        <div class="idproof">
+            <br>
+            <br>
+            <label for="PAN">Attach your E-copy of PAN card</label>
+            <input type="file" required>
+            <br>
+            <br>
+            <label for="Addressproof">Address Proof</label>
+            <input type="file" >
+            <br>
+            <br>
+            <label for="idproof">ID Proof</label>
+            <input type="file" required>
+        </div>
+        <div class="submit" align="center">
+            <label for="submit"><br></label>
+            <br>
+            <input type="submit" >
+        </div>
+
+
+    </form>
+    
+</body>
+</html>
