@@ -1,0 +1,33 @@
+.html{
+    border: 10px solid;
+}
+.enquiry{
+align-items: flex-start;
+color: whitesmoke;
+background-color: blue;
+border: black;
+width: auto;
+height:auto
+}
+
+
+.header{
+    background-color:black;
+
+}
+.info{
+    color: black;
+    font-display: auto;
+    font-family: 'Roboto Mono', monospace;
+    font-stretch: narrower;
+    font-size: 9vmax;
+}
+.copyright {
+    position: absolute;
+    box-align: center;
+    bottom: 0;
+}
+.body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color:aliceblue;
+}

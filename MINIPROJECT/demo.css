@@ -1,0 +1,36 @@
+html{
+    border: 10px solid;
+}
+.enquiry{
+align-items: flex-start;
+color: whitesmoke;
+background-color: blue;
+border: black;
+width: auto;
+height:auto
+}
+.du{
+   float: right;
+    border: 10px;
+
+}
+.copyright{
+    background-color: black;
+    color: whitesmoke;
+    position:absolute;
+    bottom: 0px;
+    float: bottom;
+   
+}
+.info{
+    
+}
+info.center {
+    border: 5px solid #FFFF00;
+    display: flex;
+    justify-content: center;
+    }
+    .wrapper {
+        width: 960px;
+        margin: 0 auto;
+      }
